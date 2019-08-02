@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset-min.css">
+    <title>jd</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .head {
+            height: 80px;
+            width: 100%;
+        }
+
+        .head-c {
+            position: relative;
+            height: 100%;
+            width: 990px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            float: left;
+            width: 170px;
+            height: 80px;
+            background: url(img/logo.png) no-repeat center;
+        }
+
+        .wel {
+            float: left;
+            width: 110px;
+            height: 40px;
+            margin-top: 30px;
+            margin-left: 20px;
+            background: url(img/wel.png) no-repeat center;
+
+        }
+
+        .ask {
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+            font-size: 12px;
+            color: gray;
+            text-indent: 20px;
+            background: url(img/q-icon.png) no-repeat left;
+        }
+
+        .header {
+            text-align: center;
+            width: 100%;
+            height: 38px;
+            background-color: #FFF8F0;
+        }
+
+        .text-1,
+        .text-2 {
+            display: inline-block;
+            line-height: 38px;
+            height: 100%;
+            font-size: 12px;
+            color: gray;
+            text-indent: 20px;
+            background: url(img/icon-tips.png) no-repeat left center;
+        }
+
+        .main {
+            height: 475px;
+            background-color: #E93854;
+        }
+
+        .main-c {
+            overflow: hidden;
+            width: 990px;
+            height: 475px;
+            margin: 0 auto;
+            background: url(img/bg.png) no-repeat center;
+        }
+
+        .admin {
+            height: 398px;
+            width: 346px;
+            background-color: #fff;
+            float: right;
+            margin-top: 10px;
+        }
+
+        .login {
+            text-align: center;
+            width: 100%;
+            height: 38px;
+            background-color: pink;
+        }
+
+        .login-1 {
+            height: 55px;
+            border-bottom: 1px solid rgb(230, 222, 222);
+        }
+
+        .sm {
+            float: left;
+            width: 172px;
+            height: 18px;
+            font-size: 18px;
+            border-right: 1px solid rgb(219, 214, 214);
+            color: gray;
+            margin-top: 18px;
+        }
+
+        .zh {
+            float: left;
+            width: 172px;
+            height: 18px;
+            font-size: 18px;
+            color: #E4393C;
+            margin-top: 18px;
+        }
+
+        .sm:hover {
+            color: #E4393C;
+        }
+
+        .login-2 {
+            margin-top: 55px;
+            height: 33px;
+        }
+
+        .login-3 {
+            margin: 0 auto;
+            height: 38px;
+            width: 304px;
+            border: 1px solid rgb(199, 194, 194);
+        }
+
+        .lable-1 {
+            float: left;
+            width: 39px;
+            height: 38px;
+            border-right: 1px solid rgb(197, 191, 191);
+            background: url(img/pwd-icons-new.png) no-repeat 1px -48px;
+        }
+
+        .lable-2 {
+            float: left;
+            width: 39px;
+            height: 38px;
+            border-right: 1px solid rgb(197, 191, 191);
+            background: url(img/pwd-icons-new.png) no-repeat -48px -48px;
+        }
+
+        .ip {
+            font-size: 14px;
+            border: none;
+            outline: none;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .login-4 {
+            margin: 0 auto;
+            height: 38px;
+            width: 304px;
+            border: 1px solid rgb(199, 194, 194);
+            margin-top: 20px;
+        }
+
+        .lost {
+            margin: 0 auto;
+            width: 306px;
+            height: 18px;
+            margin-top: 20px;
+        }
+
+        .lost a {
+            font-size: 12px;
+            float: right;
+            line-height: 18px;
+            color: #333;
+        }
+
+        .lost a:hover {
+            color: red;
+            text-decoration: red;
+        }
+
+        .enter {
+            margin: 0 auto;
+            width: 304px;
+            height: 33px;
+            margin-top: 20px;
+            background-color: #E4393C;
+            text-align: center;
+        }
+
+        .enter a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 33px;
+            font-size: 22px;
+            color: #fff;
+        }
+
+        .xxx {
+            margin: 0 auto;
+            width: 100%;
+            height: 50px;
+            margin-top: 31px;
+            border-top: 1px solid rgb(228, 222, 222);
+        }
+
+        .app {
+            position: relative;
+            margin: 0 auto;
+            width: 306px;
+            height: 50px;
+        }
+
+        .app-1 a {
+            float: left;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .qq a {
+            margin-top: 18px;
+            margin-left: 21px;
+        }
+
+        .wx a {
+            margin-top: 18px;
+            margin-left: 53px;
+        }
+
+        .zc a {
+            font-size: 14px;
+            margin-top: 17px;
+            float: right;
+            color: #E4393C;
+        }
+
+        .kong {
+            position: absolute;
+            top: 18px;
+            left: 56px;
+            width: 1px;
+            height: 12px;
+            background-color: rgb(207, 201, 201);
+        }
+
+        .tp {
+            width: 18px;
+            height: 18px;
+        }
+
+        .qq1 {
+            position: absolute;
+            top: 16px;
+            left: 0px;
+            background: url(img/qq-wx.png) no-repeat;
+        }
+
+        .wx1 {
+            position: absolute;
+            top: 16px;
+            left: 74px;
+            background: url(img/qq-wx.png) no-repeat -19px;
+        }
+
+        .zc1 {
+            position: absolute;
+            top: 16px;
+            left: 230px;
+            background: url(img/pwd-icons-new.png) no-repeat -104px -75px;
+        }
+
+        .login .login-footer {
+            height: 61px;
+            background-color: #FCFCFC;
+        }
+
+        .footer-c {
+            font-size: 12px;
+            color: gray;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer .links a {
+            margin: 0 5px;
+            color: gray;
+        }
+
+        .footer .copy-right {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <!-- 头部版心 -->
+        <div class="head-c">
+            <a class="logo" href="#"></a>
+            <div class="wel"></div>
+            <a class="ask" href="#">登陆页面,调查问卷</a>
+        </div>
+    </div>
+    <!-- 第二排文字 -->
+    <div class="header">
+        <p class="text-1">依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《京东隐私政策》已上线，将更有利于保护您的个人隐私。</p>
+    </div>
+    <!-- 主页区 -->
+    <div class="main">
+        <!-- 内容版心 -->
+        <div class="main-c">
+            <!-- 登陆盒子 -->
+            <div class="admin">
+                <div class="login">
+                    <p class="text-2">京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+                    <div class="login-1">
+                        <a href="#" class="sm">扫码登录</a>
+                        <a href="#" class="zh">账户登录</a>
+                    </div>
+                </div>
+                <div class="login-2">
+
+                </div>
+                <!-- 邮箱输入框 -->
+                <div class="login-3">
+                    <label class="lable-1" for="ip"></label>
+                    <input id="ip" class="ip ip-1" type="text" placeholder="邮箱/手机号">
+                </div>
+                <!-- 密码输入框 -->
+                <div class="login-4">
+                    <label class="lable-2" for="ip-1"></label>
+                    <input id="ip-1" class="ip ip-1" type="text" placeholder="密码">
+                </div>
+                <!-- 忘记密码 -->
+                <div class="lost">
+                    <a href="#">忘记密码</a>
+                </div>
+                <!-- 登陆按钮 -->
+                <div class="enter">
+                    <a href="#">登&nbsp;&nbsp;&nbsp;录</a>
+                </div>
+                <!-- 底部应用 -->
+                <div class="xxx">
+                    <div class="app">
+                        <ul>
+                            <li class="app-1 qq">
+                                <a href="#">QQ</a>
+                            </li>
+                            <li class="app-1 wx">
+                                <a href="#">微信</a>
+                            </li>
+                            <li class="app-1 zc">
+                                <a href="#">立即注册</a>
+                            </li>
+                            <div class="tp qq1">
+
+                            </div>
+                            <div class="tp wx1">
+
+                            </div>
+                            <div class="tp zc1">
+
+                            </div>
+                        </ul>
+                        <div class="kong"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="footer-c">
+            <div class="links">
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+                |
+                <a href="#">关于我们</a>
+
+            </div>
+            <div class="copy-right">
+                Copyright © 2004-2019 京东JD.com 版权所有
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

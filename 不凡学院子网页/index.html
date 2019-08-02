@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>设计咨询-不凡学院</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .head {
+            width: 100%;
+            height: 88px;
+            background-color: #333;
+        }
+
+        .header {
+            position: relative;
+            width: 1200px;
+            height: 88px;
+            margin: 0 auto;
+        }
+
+        .header .logo {
+            background: url(img/logo.png) no-repeat center;
+            width: 141px;
+            height: 88px;
+            float: left;
+        }
+
+        .header .nav {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 88px;
+        }
+
+        .header .nav-1 {
+            float: left;
+            position: relative;
+            width: 107px;
+            height: 88px;
+
+        }
+
+        .header .nav-1 a {
+            font-size: 16px;
+            display: block;
+            text-align: center;
+            line-height: 88px;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+        }
+
+        .nav-sub {
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 70px;
+            width: 107px;
+        }
+
+        .nav-1:hover .nav-sub {
+            display: block;
+        }
+
+        .nav-sub .nav-2 a {
+            font-size: 12px;
+            color: #fff;
+            height: 30px;
+            line-height: 30px;
+            background-color: #333;
+        }
+
+        .bg {
+            overflow: hidden;
+            margin: 0 auto;
+            width: 1200px;
+            height: 92px;
+        }
+
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4 {
+            margin-top: 31px;
+            float: left;
+            width: 100px;
+            height: 30px;
+            border-radius: 30px;
+            border: 1px solid gray;
+            font-size: 14px;
+            line-height: 30px;
+            color: gray;
+            text-align: center;
+        }
+
+        .box-1 {
+            border: 1px solid blue;
+            color: blue;
+        }
+
+        .box-2:hover {
+            border: 1px solid blue;
+            color: blue;
+        }
+
+        .box-3:hover {
+            border: 1px solid blue;
+            color: blue;
+        }
+
+        .box-4:hover {
+            border: 1px solid blue;
+            color: blue;
+        }
+
+        .box-2,
+        .box-3,
+        .box-4 {
+            margin-left: 36px;
+        }
+
+        .zy {
+            overflow: hidden;
+            width: 1200px;
+            height: 1600px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .zy .tp {
+            width: 580px;
+            height: 210px;
+        }
+
+        .zy .wz {
+            border-right: 1px solid #D0C6C6;
+            border-left: 1px solid #D0C6C6;
+            border-bottom: 1px solid #D0C6C6;
+            position: relative;
+            width: 579px;
+            height: 70px;
+        }
+
+        .wz-1,
+        .wz-3,
+        .wz-5,
+        .wz-7,
+        .wz-9 {
+            float: left;
+        }
+
+        .wz-2,
+        .wz-4,
+        .wz-6,
+        .wz-8,
+        .wz-10 {
+            float: right;
+        }
+
+        .tp-1,
+        .tp-3,
+        .tp-5,
+        .tp-7,
+        .tp-9 {
+            float: left;
+        }
+
+        .tp-1,
+        .tp-2,
+        .tp-3,
+        .tp-5,
+        .tp-7,
+        .tp-9,
+        .tp-4,
+        .tp-6,
+        .tp-8,
+        .tp-10 {
+            margin-top: 30px;
+        }
+
+        .tp-2,
+        .tp-4,
+        .tp-6,
+        .tp-8,
+        .tp-10 {
+            float: right;
+        }
+
+        .zy .tp a {
+            display: block;
+            width: 580px;
+            height: 210px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .tp-1 a {
+            background: url(img/1.jpg);
+        }
+
+        .tp-2 a {
+            background: url(img/2.jpg);
+        }
+
+        .tp-3 a {
+            background: url(img/3.jpg);
+        }
+
+        .tp-4 a {
+            background: url(img/4.png);
+        }
+
+        .tp-5 a {
+            background: url(img/5.jpg);
+        }
+
+        .tp-6 a {
+            background: url(img/6.png);
+        }
+
+        .tp-7 a {
+            background: url(img/7.jpg);
+        }
+
+        .tp-8 a {
+            background: url(img/8.jpg);
+        }
+
+        .tp-9 a {
+            background: url(img/9.jpg);
+        }
+
+        .tp-10 a {
+            background: url(img/10.JPG);
+        }
+
+        .wz .p {
+            margin-left: 30px;
+            margin-top: 18px;
+            font-size: 17px;
+            color: #413C3C;
+        }
+
+        .wz .time {
+            margin-left: 30px;
+            margin-top: 13px;
+            font-size: 12px;
+            color: #666666;
+        }
+
+        .wz .ll {
+            font-size: 13px;
+            position: absolute;
+            right: 80px;
+            bottom: 13px;
+            color: #413C3C;
+        }
+
+        .wz .zan {
+            font-size: 13px;
+            position: absolute;
+            right: 38px;
+            bottom: 13px;
+            color: #413C3C;
+        }
+
+        .pl {
+            position: absolute;
+            bottom: 13px;
+            right: 114px;
+            width: 15px;
+            height: 15px;
+            background: url(img/a.png) no-repeat center;
+        }
+
+        .z {
+            position: absolute;
+            bottom: 13px;
+            right: 53px;
+            width: 15px;
+            height: 15px;
+            background: url(img/b.png) no-repeat center;
+        }
+
+        .fy {
+            overflow: hidden;
+            margin: 0 auto;
+            width: 1200px;
+            height: 55px;
+        }
+
+        .ul {
+            overflow: hidden;
+            margin-left: 475px;
+            margin-top: 12px;
+        }
+
+        .li {
+            width: 50px;
+            height: 28px;
+            border: 1px solid #ece6e6;
+            float: left;
+            text-align: center;
+            line-height: 28px;
+            font-size: 12px;
+        }
+
+        .li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .a1 {
+            color: #aaa1a1;
+        }
+
+        .a2 {
+            background-color: rgb(82, 76, 76);
+            color: #fff;
+        }
+
+        .a3:hover {
+            color: blue;
+        }
+
+        .a4:hover {
+            color: blue;
+        }
+
+        .a5:hover {
+            color: blue;
+        }
+
+        .li-1,
+        .li-5 {
+            width: 65px;
+            height: 28px;
+        }
+
+        .li-2,
+        .li-3,
+        .li-4 {
+            width: 40px;
+            height: 28px;
+        }
+
+        .kb {
+            width: 100%;
+            height: 64px;
+            background-color: #fff;
+        }
+
+        .zx {
+            overflow: hidden;
+            width: 100%;
+            height: 100px;
+            background-color: #313131;
+        }
+
+        .ppp {
+            text-align: center;
+            color: rgb(173, 167, 167);
+            font-size: 14px;
+        }
+
+        .bf {
+            margin-top: 30px;
+        }
+
+        .kj {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="header">
+            <a class="logo" href="#"></a>
+            <ul class="nav">
+                <li class="nav-1">
+                    <a href="#">首页</a>
+                </li>
+                <li class="nav-1">
+                    <a href="#">资讯教程</a>
+                    <ul class="nav-sub">
+                        <li class="nav-2">
+                            <a href="#">UI</a>
+                        </li>
+                        <li class="nav-2">
+                            <a href="#">前端</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-1">
+                    <a href="#">学员佳作</a>
+                </li>
+                <li class="nav-1">
+                    <a href="#">设计规范</a>
+                </li>
+                <li class="nav-1">
+                    <a href="#">设计导航</a>
+                </li>
+                <li class="nav-1">
+                    <a href="#">商务合作</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="box-1">
+            <p>全部</p>
+        </div>
+        <div class="box-2">
+            <p>UI资讯</p>
+        </div>
+        <div class="box-3">
+            <p>H5资讯</p>
+        </div>
+        <div class="box-4">
+            <p>原创</p>
+        </div>
+    </div>
+    <div class="zy">
+        <div class="tp tp-1">
+            <a href="#"></a>
+        </div>
+        <div class="tp tp-2">
+            <a href="#"></a>
+        </div>
+        <div class="wz wz-1">
+            <p class="p p1">怎么写代码才能看起来像一位老司机</p>
+            <span class="time t1">2019-07-26</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">2073</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">18</span>
+        </div>
+        <div class="wz wz-2">
+            <p class="p p2">豆瓣电影API</p>
+            <span class="time t2">2019-07-26</span>
+            <span class="ll l2">1115</span>
+            <span class="pl pl-3"></span>
+            <span class="zan z2">17</span>
+            <span class="z pl-4"></span>
+        </div>
+        <div class="tp tp-3">
+            <a href="#"></a>
+        </div>
+        <div class="tp tp-4">
+            <a href="#"></a>
+        </div>
+        <div class="wz wz-3">
+            <p class="p p1">如何打造2.5D风格插画</p>
+            <span class="time t1">2018-06-22</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">2561</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">3</span>
+        </div>
+        <div class="wz wz-4">
+            <p class="p p1">在前端开发中值得推荐的常用工具</p>
+            <span class="time t1">2019-07-26</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">2431</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">16</span>
+        </div>
+        <div class="tp tp-5">
+            <a href="#"></a>
+        </div>
+        <div class="tp tp-6">
+            <a href="#"></a>
+        </div>
+        <div class="wz wz-5">
+            <p class="p p1">Chrome 常用插件 前端-后端-产品</p>
+            <span class="time t1">2019-07-22</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">1324</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">11</span>
+        </div>
+        <div class="wz wz-6">
+            <p class="p p1">2018年爱(和使用)渐变的10个理由</p>
+            <span class="time t1">2019-03-28</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">1068</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">4</span>
+        </div>
+        <div class="tp tp-7">
+            <a href="#"></a>
+        </div>
+        <div class="tp tp-8">
+            <a href="#"></a>
+        </div>
+        <div class="wz wz-7">
+            <p class="p p1">PS/AI下载入口</p>
+            <span class="time t1">2018-07-11</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">1313</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">1</span>
+        </div>
+        <div class="wz wz-8">
+            <p class="p p1">如何制作C4D立体像素</p>
+            <span class="time t1">2019-02-27</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">2247</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">5</span>
+        </div>
+        <div class="tp tp-9">
+            <a href="#"></a>
+        </div>
+
+        <div class="tp tp-10">
+            <a href="#"></a>
+        </div>
+        <div class="wz wz-9">
+            <p class="p p1">五分钟带你了解月薪3W的UI设计师到底是干嘛的!郑州UI设计前景如何?</p>
+            <span class="time t1">2019-06-30</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">131</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">5</span>
+        </div>
+        <div class="wz wz-10">
+            <p class="p p1">造物app前台及后台API接口</p>
+            <span class="time t1">2019-06-30</span>
+            <span class="pl pl-1"></span>
+            <span class="ll l1">917</span>
+            <span class="z pl-2"></span>
+            <span class="zan z1">5</span>
+        </div>
+    </div>
+    <div class="fy">
+        <ul class="ul">
+            <li class="li li-1">
+                <a class="a1" href="#">上一页</a>
+            </li>
+            <li class="li li-2">
+                <a class="a2" href="#">1</a>
+            </li>
+            <li class="li li-3">
+                <a class="a3" href="#">2</a>
+            </li>
+            <li class="li li-4">
+                <a class="a4" href="#">3</a>
+            </li>
+            <li class="li li-5">
+                <a class="a4" href="#">下一页</a>
+            </li>
+        </ul>
+    </div>
+    <div class="kb"></div>
+    <div class="zx">
+        <p class="ppp bf">
+            @不凡(bufanui.com) - 设计交流和意见反馈-QQ群:650122402
+        </p>
+        <p class="ppp kj">
+            @不凡科技 郑州IT技术服务 &nbsp;豫ICP17015347号
+        </p>
+    </div>
+</body>
+
+</html>

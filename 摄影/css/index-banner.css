@@ -1,0 +1,68 @@
+.banner {
+    position: relative;
+    width: 1600px;
+    height: 830px;
+    margin: 0 auto;
+    background: url('../img/banner1.png') no-repeat center;
+}
+.head{
+    background-color: none;
+}
+.foot {
+    width: 200px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 700px;
+}
+.foot a{
+    float: left;
+    width: 40px;
+    height: 4px;
+    background-color: #3e3e3e;
+}
+.fa2,
+.fa3{
+    margin-left: 40px;
+}
+.foot a:hover{
+    background-color: #ff0000;
+}
+/* .fa1:hover .banner{
+    background: url('../img/banner1.png') no-repeat center;
+}
+.fa2:hover .banner {
+    background: url('../img/banner2.png') no-repeat center;
+}
+.fa3:hover .banner {
+    background: url('../img/banner3.png') no-repeat center;
+} */
+.fa1.active{
+    background-color: #ff0000;
+}
+.c-ten {
+    position: absolute;
+    top: 330px;
+    left: 1550px;
+    width: 8px;
+    height: 130px;
+}
+
+.ca1 {
+    display: block;
+    margin-top: 20px;
+    margin-left: 1px;
+    width: 6px;
+    height: 6px;
+    background-color: #737373;
+    border-radius: 50%;
+}
+
+.ca11 {
+    margin-left: -1px;
+    ;
+}
+
+.ca1.active {
+    border: 2px solid #fff;
+    background-color: #333;
+}

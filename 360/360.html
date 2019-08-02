@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../reset-min.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        body {
+            background: url(img/bd-bg.png) repeat-x;
+        }
+
+        .header {
+            height: 137px;
+        }
+
+        .header-c {
+            overflow: hidden;
+            width: 925px;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        .logo {
+            float: left;
+            width: 287px;
+            height: 100%;
+            background: url('img/logo.png') no-repeat center;
+        }
+
+        /* 导航栏 */
+        .content {
+            float: right;
+            width: 564px;
+            height: 76px;
+            margin-top: 37px;
+            text-align: center;
+        }
+
+        .l {
+            margin-top: 22px;
+            float: left;
+            padding: 0 10px 8px;
+            border-left: 1px #d6d6d6 dotted;
+        }
+
+        .l a {
+            font: bold 14px Georgia;
+            color: #666;
+        }
+
+        .l p {
+            color: #b7b7b7;
+            font: 12px tahoma;
+        }
+
+        .l a:hover {
+            color: #a1a1a1;
+            text-decoration: underline;
+        }
+
+        /* banner部分 */
+        .banner {
+            height: 356px;
+            background: url('img/banner-bg.png') no-repeat bottom center;
+            position: relative;
+        }
+
+        /* .banner-c{
+            width: 940px;
+            height: 342px;
+            margin: 22px auto;
+            background-color: red;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 版心 -->
+        <div class="header-c">
+            <div class="logo"></div>
+            <!-- <! 导航栏 -->
+            <ul class="content">
+                <li class="l l1">
+                    <a href="#">HOME</a>
+                    <p>Back to home</p>
+                </li>
+                <li class="l l2">
+                    <a href="#">PRODUCTS</a>
+                    <p>Whot we have for you</p>
+                </li>
+                <li class="l l3">
+                    <a href="#">SERVICES</a>
+                    <p>Things we do</p>
+                </li>
+                <li class="l l4">
+                    <a href="#">BLOG</a>
+                    <p>Follow our updates</p>
+                </li>
+                <li class="l l5">
+                    <a href="#">CONTACT</a>
+                    <p>Ways to reach us</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="img/banner01.png" alt="这是一个图片" />
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+/* 表单开始 */
+.footer{
+    width: 100%;
+    height: 380px;
+    background-color: #f2f2f2;
+}
+.footer-c {
+    position: relative;
+    width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+}
+.blue-box4{
+    position: absolute;
+    top: 5px;
+    left: -26px;
+    width: 52px;
+    height: 13px;
+    background-color: #04e4f8;
+}
+.footer-l {
+    position: relative;
+    float: left;
+    width: 600px;
+    height: 100%;
+}
+
+.footer-r {
+    position: relative;
+    float: right;
+    width: 600px;
+    height: 100%;
+}
+
+/* 左半部分 */
+.fl-head {
+    position: relative;
+    z-index: 9;
+    width: 120px;
+    height: 50px;
+}
+
+.fl-p1 {
+    font-size: 24px;
+    color: #3b3b3b;
+}
+
+.fl-p2 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #c7c7c7;
+}
+
+.fl-p3 {
+    font-size: 18px;
+    color: #5d5d5d;
+    margin-top: 80px;
+}
+
+.fl-p4 {
+    font-size: 14px;
+    color: #9fa2a2;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+
+.fl-p5 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9fa2a2;
+    line-height: 1.5;
+}
+
+.fl-p6 {
+    font-size: 14px;
+    color: #9fa2a2;
+    line-height: 1.5;
+    margin-top: 60px;
+}
+
+.qq {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background: url('../img/qq.png') no-repeat center;
+}
+
+.wx {
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    width: 20px;
+    height: 20px;
+    background: url('../img/weixin.png') no-repeat center;
+}
+
+.wb {
+    position: absolute;
+    top: 320px;
+    left: 90px;
+    width: 20px;
+    height: 20px;
+    background: url('../img/weibo.png') no-repeat center;
+}
+
+/* 右半部分 */
+input{
+    background-color: #f2f2f2;
+}
+.inp1 {
+    position: absolute;
+    width: 140px;
+    top: 178px;
+    left: 97px;
+    border: none;
+}
+
+.inp2 {
+    position: absolute;
+    width: 140px;
+    top: 178px;
+    left: 277px;
+    border: none;
+}
+
+.inp3 {
+    position: absolute;
+    width: 140px;
+    top: 178px;
+    left: 455px;
+    border: none;
+}
+
+.inp4 {
+    position: absolute;
+    width: 500px;
+    top: 298px;
+    left: 97px;
+    border: none;
+}
+
+.footer-r span {
+    display: block;
+    position: absolute;
+    height: 1px;
+    background-color: #d4d3d3;
+}
+
+.spa1 {
+    width: 140px;
+    left: 97px;
+    top: 196px;
+}
+
+.spa2 {
+    width: 140px;
+    left: 277px;
+    top: 196px;
+}
+
+.spa3 {
+    width: 140px;
+    left: 455px;
+    top: 196px;
+}
+
+.spa4 {
+    width: 500px;
+    top: 316px;
+    left: 97px;
+}
+
+.footer-r p {
+    position: absolute;
+    font-size: 14px;
+    color: #bfbdbd;
+}
+
+.frp1 {
+    top: 138px;
+    left: 97px;
+}
+
+.frp2 {
+    top: 138px;
+    left: 277px;
+}
+
+.frp3 {
+    top: 138px;
+    left: 455px;
+}
+
+.frp4 {
+    top: 260px;
+    left: 97px;
+}
+.sub{
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 97px;
+    width: 61px;
+    height: 24px;
+    color: #d0d0d0;
+    background: url('../img/btn.png') no-repeat center;
+}
+/* 底部表单结束 */
+/* 留白 */
+.liubai{
+    width: 100%;
+    height: 100px;
+    background-color: #f2f2f2;
+}

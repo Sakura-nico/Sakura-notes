@@ -1,0 +1,161 @@
+.case {
+    overflow: hidden;
+    margin: 0 auto;
+    height: 986px;
+    width: 1200px;
+}
+
+/* 案例导航 */
+.ca-nav {
+    margin-top: 136px;
+    width: 100%;
+    height: 46px;
+}
+
+.nav-p1 {
+    float: left;
+    font-size: 24px;
+    color: #494949;
+}
+
+.nav-p2 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 18px;
+    font-size: 14px;
+    color: #c3c3c3;
+}
+
+.nav-nav {
+    float: right;
+    margin-top: 8px;
+    width: 307px;
+    height: 30px;
+}
+
+.nav-li {
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    width: 73px;
+    height: 100%;
+    line-height: 30px;
+}
+
+.nav-li a {
+    display: block;
+    color: #858585;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-l2 {
+    margin-left: 5px;
+}
+
+.nav-li a:hover {
+    color: #fff;
+    background-color: #1073d8;
+}
+
+.nav-a1.active {
+    color: #fff;
+    background-color: #1073d8;
+}
+
+/* 案例 */
+.case-pic {
+    float: left;
+    margin-top: 28px;
+    width: 384px;
+    height: 215px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.case-word {
+    float: left;
+    width: 382px;
+    height: 77px;
+    text-align: center;
+    border-right: 1px solid #a3a3a3;
+    border-left: 1px solid #a3a3a3;
+    border-bottom: 1px solid #a3a3a3;
+}
+
+.c-pic-2,
+.c-pic-3,
+.c-pic-5,
+.c-pic-6,
+.c-word-2,
+.c-word-3,
+.c-word-5,
+.c-word-6 {
+    margin-left: 24px;
+}
+
+.c-pic-1 {
+    background: url('../img/1.png');
+}
+
+.c-pic-2 {
+    background: url('../img/2.png');
+}
+
+.c-pic-3 {
+    background: url('../img/3.png');
+}
+
+.c-pic-4 {
+    background: url('../img/4.png');
+}
+
+.c-pic-5 {
+    background: url('../img/2.png');
+}
+
+.c-pic-6 {
+    background: url('../img/3.png');
+}
+
+.wp1 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.wp2 {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* 翻页键 */
+.flip {
+    float: left;
+    width: 100%;
+    height: 31px;
+    margin-top: 49px;
+}
+
+.flip a {
+    display: block;
+    float: left;
+    width: 41px;
+    height: 41px;
+}
+
+.f-left {
+    margin-left: 557px;
+    background: url('../img/left.png') no-repeat center;
+}
+
+.f-right {
+    margin-right: 557px;
+    background: url('../img/right.png') no-repeat center;
+}
+
+.f-left:hover {
+    background: url('../img/left.png') no-repeat center;
+}

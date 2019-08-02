@@ -1,0 +1,83 @@
+.main-h{
+    overflow: hidden;
+    width: 100%;
+    height: 170px;
+    background-color: #f7f8f9;
+}
+.main-h p{
+    text-align: center;
+}
+.mh-1{
+    margin-top: 55px;
+    font-size: 32px;
+    color:#181818;
+}
+.mh-2{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #c3c3c3;
+}
+.main{
+    width: 1200px;
+    height: 1523px;
+    margin: 0 auto;
+}
+.main-nav{
+    position: relative;
+    width: 100%;
+    height: 103px;
+}
+.main-nav a{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    font-size: 15px;
+    color: #858585;
+    text-align: center;
+    line-height: 30px;
+}
+.nav-a1{
+    top: 36px;
+    left: 423px;
+}
+.nav-a2{
+    top: 36px;
+    left: 523px;
+}
+.nav-a3{
+    top: 36px;
+    left: 623px;
+}
+.nav-a4{
+    top: 36px;
+    left: 723px;
+}
+.main-nav a:hover{
+    color: #fff;
+    background-color: #1073d8;
+}
+.nav-a1.active{
+    color: #fff;
+    background-color: #1073d8;
+}
+.box{
+    float: left;
+    width: 384px;
+    height: 293px;
+    margin-top: 27px;
+}
+.b1{
+    margin-left: 24px;
+}
+.bo1{
+    background: url('../img/1.png') no-repeat center;
+}
+.bo2{
+    background: url('../img/2.png') no-repeat center;
+}
+.bo3{
+    background: url('../img/3.png') no-repeat center;
+}
+.bo4{
+    background: url('../img/4.png') no-repeat center;
+}

@@ -1,0 +1,28 @@
+.main {
+    width: 1200px;
+    height: 621px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.main a{
+    display: block;
+    margin-top: 60px;
+    float: left;
+    width: 285px;
+    height: 490px;
+}
+.box1{
+    background: url('../img/1-1.png') no-repeat center;
+}
+.box2{
+    margin-left: 20px;
+    background: url('../img/1-2.png') no-repeat center;
+}
+.box3{
+    margin-left: 20px;
+    background: url('../img/1-3.png') no-repeat center;
+}
+.box4{
+    margin-left: 20px;
+    background: url('../img/1-4.png') no-repeat center;
+}

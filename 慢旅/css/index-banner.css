@@ -1,0 +1,46 @@
+.banner {
+    overflow: hidden;
+    width: 100%;
+    height: 700px;
+    background: url('../img/banner.png') no-repeat center;
+}
+
+.ban-c {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 650px;
+    width: 82px;
+    height: 14px;
+}
+
+.ban-c a {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(1, 1, 1, 0);
+    border: 2px solid #fff;
+}
+
+.le {
+    margin: 0px;
+    left: 0px;
+}
+
+.ce {
+    margin: 0px;
+    left: 34px;
+}
+
+.ri {
+    margin: 0px;
+    right: 0px;
+}
+
+.ban-c a:hover {
+    background-color: #fff;
+}
+
+.le.active {
+    background-color: #fff;
+}

@@ -1,0 +1,57 @@
+.aus {
+    width: 100%;
+    height: 507px;
+    background-color: #f9f9f8;
+}
+
+.aus-c {
+    overflow: hidden;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.aus-pic {
+    float: right;
+    margin-top: 111px;
+    width: 548px;
+    height: 278px;
+    background: url('../img/bf.png') no-repeat center;
+}
+
+.aus-word {
+    margin-top: 141px;
+    width: 534px;
+    height: 198px;
+}
+
+.a-p-title {
+    float: left;
+    font-size: 24px;
+    color: #494949;
+}
+
+.a-p-title1 {
+    float: left;
+    margin-top: 11px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #c3c3c3;
+}
+
+.a-p-word1 {
+    float: left;
+    margin-top: 48px;
+    margin-left: 0;
+    font-size: 15px;
+    color: #959595;
+    line-height: 1.5;
+}
+
+.a-p-word2 {
+    float: left;
+    margin-left: 0;
+    font-size: 15px;
+    color: #959595;
+    line-height: 1.5;
+}

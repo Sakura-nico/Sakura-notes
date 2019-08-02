@@ -1,0 +1,81 @@
+.main-h {
+    overflow: hidden;
+    width: 100%;
+    height: 170px;
+    background-color: #f7f8f9;
+}
+
+.main-h p {
+    text-align: center;
+}
+
+.mh-1 {
+    margin-top: 55px;
+    font-size: 32px;
+    color: #181818;
+}
+
+.mh-2 {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #c3c3c3;
+}
+
+.main {
+    width: 1200px;
+    height: 318px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 345px;
+    height: 100%;
+    float: left;
+}
+
+.box-2,
+.box-3 {
+    margin-left: 82.5px;
+}
+
+.bb1 {
+    overflow: hidden;
+    width: 345px;
+    height: 67px;
+    margin-top: 58px;
+    background-color: pink;
+}
+
+.bb-1 {
+    background: url('../img/2-1.png') no-repeat left top;
+}
+
+.bb-2 {
+    background: url('../img/2-2.png') no-repeat left top;
+}
+
+.bb-3 {
+    background: url('../img/2-3.png') no-repeat left top;
+}
+
+.bb1 p {
+    margin-left: 45px;
+    margin-top: 6px;
+    font-size: 24px;
+    color: #555555;
+}
+.p1{
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.5;
+}
+.ditu{
+    margin: 0 auto;
+    width: 1200px;
+    height: 383px;
+    background: url('../img/2-4.png') no-repeat center;
+}
+.liubai{
+    width: 100%;
+    height: 90px;
+}

@@ -1,0 +1,145 @@
+.banner {
+    width: 100%;
+    height: 538px;
+    background: url('../img/banner.png') no-repeat center;
+}
+
+/* 定位版心 */
+.banner-c {
+    position: absolute;
+    width: 1200px;
+    height: 204px;
+    top: 571px;
+    left: 50%;
+    margin-left: -600px;
+    background-color: #fff;
+    z-index: 9;
+}
+
+.banner-d {
+    float: left;
+    margin-top: 43px;
+    width: 54px;
+    height: 54px;
+}
+
+/* 六个图 */
+.wed {
+    margin-left: 100px;
+    background: url('../img/wangzhan.png') no-repeat center;
+}
+
+.app {
+    margin-left: 145px;
+    background: url('../img/yidongduan.png') no-repeat center;
+}
+
+.app:hover {
+    background: url('../img/yidongduan-blue.png') no-repeat center;
+}
+
+.gzh {
+    margin-left: 129px;
+    background: url('../img/gongzhonghao.png') no-repeat center;
+}
+
+.gzh:hover {
+    background: url('../img/gongzhonghao-blue.png') no-repeat center;
+}
+
+.www {
+    margin-left: 142px;
+    background: url('../img/yuming.png') no-repeat center;
+}
+
+.www:hover {
+    background: url('../img/yuming-blue.png') no-repeat center;
+}
+
+.albb {
+    margin-left: 138px;
+    background: url('../img/fuwuqi.png') no-repeat center;
+}
+
+.albb:hover {
+    background: url('../img/fuwuqi-blue.png') no-repeat center;
+}
+
+.sh {
+    margin-left: 128px;
+    background: url('../img/shengji.png') no-repeat center;
+}
+
+.sh:hover {
+    background: url('../img/shengji-blue.png') no-repeat center;
+}
+
+/* 注释 */
+.title {
+    float: left;
+    margin-top: 24px;
+    font-size: 16px;
+    color: #505050;
+}
+
+.tit1 {
+    margin-left: 60px;
+}
+
+.tit2 {
+    margin-left: 78px;
+}
+
+.tit3 {
+    margin-left: 88px;
+}
+
+.tit4 {
+    margin-left: 125px;
+}
+
+.tit5 {
+    margin-left: 95px;
+}
+
+.tit6 {
+    margin-left: 65px;
+}
+
+.text {
+    float: left;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-top: 12px;
+}
+
+.tex1 {
+    margin-left: 75px;
+}
+
+.tex2 {
+    margin-left: 110px;
+}
+
+.tex3 {
+    margin-left: 60px;
+}
+
+.tex4 {
+    margin-left: 55px;
+}
+
+.tex5 {
+    margin-left: 85px;
+}
+
+.tex6 {
+    margin-left: 83px;
+}
+.line {
+    margin: 0 auto;
+    margin-top: 157px;
+    width: 1200px;
+    height: 28px;
+    background: url('../img/line.png') no-repeat center;
+}

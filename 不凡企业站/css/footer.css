@@ -1,0 +1,101 @@
+.cus {
+    width: 100%;
+    height: 328px;
+    background-color: #323943;
+}
+
+.cus-c {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.cus-head {
+    margin-top: 64px;
+    width: 100%;
+    height: 24px;
+}
+
+.c-h-p1 {
+    float: left;
+    font-size: 24px;
+    color: #f3f3f3;
+}
+
+.c-h-p2 {
+    float: left;
+    margin-top: 14px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #c2c2c2;
+}
+
+.cus-main {
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin-top: 75px;
+}
+
+.main-header {
+    float: left;
+    height: 70px;
+    width: 160px;
+}
+
+.main-logo {
+    float: left;
+    width: 110px;
+    height: 40px;
+    background: url('../img/logo-white.png') no-repeat bottom;
+}
+
+.main-header p {
+    margin-top: 45px;
+    font-size: 16px;
+    color: #c2c2c2;
+}
+
+.main-cen {
+    float: left;
+    margin-left: 243px;
+    width: 255px;
+    height: 70px;
+}
+
+.mzp {
+    line-height: 1.5;
+    font-size: 15px;
+    color: #c2c2c2;
+}
+
+.main-right {
+    float: left;
+    margin-left: 105px;
+    width: 422px;
+    height: 70px;
+}
+
+.mrp {
+    line-height: 1.5;
+    font-size: 15px;
+    color: #c2c2c2;
+}
+/* 联系我们结束 */
+/* 底部开始 */
+.bottom {
+    width: 100%;
+    height: 58px;
+    background-color: #272e36;
+}
+.bottom-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bottom-c p {
+    line-height: 58px;
+    font-size: 14px;
+    color: #959595;
+}
